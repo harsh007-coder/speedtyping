@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speed typing in js version 1</title>
+    <style>
+        *{margin:0; padding: 0; box-sizing: border-box;}
+
+        .maindiv{
+            width:100%;
+            height:100vh;
+            background-color: #3496d3;
+            position: relative;
+        }
+        .centerdiv{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            text-align: center;
+        }
+        h1{
+            margin-bottom: 45px;
+            text-transform: capitalize;
+            font-size: 3.3rem;
+            color:#fff;
+            font-weight: 700;
+        }
+        textarea{
+            background-color: #000;
+            border:20px solid #262626;
+            border-radius: 10px 10px 0 0;
+            outline:none;
+            color:#fff;
+            resize: none;
+            width:100%;
+            font-size:18px;
+        }
+        #btn{
+            margin-top: 8px;
+            padding: 15px;
+            font-size:20px;
+            border-radius:10px;
+            border:none;
+            outline:none;
+        }
+    </style>
+</head>
+<body>
+   <div class="maindiv">
+       <div class="centerdiv">
+           <h1>welcome to speed typing game</h1>
+
+           <h2 id="msg"></h2>
+             <br>
+           <textarea name="" id="texting" cols="100" rows="10" autofocus></textarea>
+           <button id="btn">Start</button>
+       </div>
+   </div>
+   <script src="app.js">
+
+   </script>
+</body>
+</html>
